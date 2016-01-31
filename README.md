@@ -1,6 +1,6 @@
 # syntaxhighlighter/brush-typescript
 
-typescript brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
+TypeScript brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
 
 [![Build Status](https://travis-ci.org/alexgorbatchev/brush-typescript.svg)](https://travis-ci.org/alexgorbatchev/brush-typescript)
 

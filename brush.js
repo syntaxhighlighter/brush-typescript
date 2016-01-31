@@ -10,30 +10,28 @@ function Brush() {
     'this throw true try typeof var while with yield' +
     ' any bool declare get module number public set string'; // TypeScript-specific, everything above is common with JavaScript
 
-  var r = regexLib;
-
   this.regexList = [
     {
-      regex: r.multiLineDoubleQuotedString,
+      regex: regexLib.multiLineDoubleQuotedString,
       css: 'string'
     },
     {
-      regex: r.multiLineSingleQuotedString,
+      regex: regexLib.multiLineSingleQuotedString,
       css: 'string'
     },
     {
-      regex: r.singleLineCComments,
+      regex: regexLib.singleLineCComments,
       css: 'comments'
     },
     {
-      regex: r.multiLineCComments,
+      regex: regexLib.multiLineCComments,
       css: 'comments'
     },
     {
       regex: new RegExp(this.getKeywords(keywords), 'gm'),
       css: 'keyword'
     }
-		];
+	];
 
   this.forHtmlScript(r.scriptScriptTags);
 };
