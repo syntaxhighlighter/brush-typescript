@@ -1,5 +1,5 @@
 {
-  "name": "brush-typescript",
+  "name": "@alexgorbatchev/brush-typescript",
   "version": "4.0.0",
   "description": "typescript brush module for SyntaxHighlighter.",
   "keywords": [
