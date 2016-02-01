@@ -1,5 +1,5 @@
-var BrushBase = require('brush-base');
-var regexLib = require('regex-lib');
+var BrushBase = require('@alexgorbatchev/brush-base');
+var regexLib = require('@alexgorbatchev/regex-lib');
 
 function Brush() {
   var keywords = 'break case catch class continue ' +
@@ -33,7 +33,7 @@ function Brush() {
     }
 	];
 
-  this.forHtmlScript(r.scriptScriptTags);
+  this.forHtmlScript(regexLib.scriptScriptTags);
 };
 
 Brush.prototype = new BrushBase();

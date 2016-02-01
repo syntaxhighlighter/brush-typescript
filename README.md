@@ -2,11 +2,11 @@
 
 TypeScript brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
 
-[![Build Status](https://travis-ci.org/alexgorbatchev/brush-typescript.svg)](https://travis-ci.org/alexgorbatchev/brush-typescript)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/brush-typescript.svg)](https://travis-ci.org/syntaxhighlighter/brush-typescript)
 
 ## Installation
 
-    npm install syntaxhighlighter/brush-typescript
+    npm install @alexgorbatchev/brush-typescript
 
 ## Testing
 
