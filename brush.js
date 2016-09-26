@@ -8,7 +8,7 @@ function Brush() {
     'interface let new null package private protected ' +
     'static return super switch ' +
     'this throw true try typeof var while with yield' +
-    ' any bool declare get module never number public set string'; // TypeScript-specific, everything above is common with JavaScript
+    ' any bool declare get module never number public readonly set string'; // TypeScript-specific, everything above is common with JavaScript
 
   this.regexList = [
     {
